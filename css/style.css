@@ -147,6 +147,8 @@ nav a:hover {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(45, 31, 26, 0.096);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-card:hover {
@@ -163,6 +165,9 @@ nav a:hover {
 
 .p-info {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
 }
 
@@ -181,6 +186,7 @@ nav a:hover {
 .p-info strong {
     font-size: 20px;
     color: #30212a;
+    margin-top: auto;
 }
 
 
