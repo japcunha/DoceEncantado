@@ -9,4 +9,4 @@ Tecnologias:
 
 Statuss:
 
-🚧 Em desenvolvimento
+- Em desenvolvimento -
