@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - Doce Encantado</title>
+</head>
+
+<body>
+    <header>
+        <a href="inde.html" class="logo">
+            Doce Encantado
+        </a>
+        <a href="index.html">
+            volte pra o site
+        </a>
+    </header>
+    <main>
+        <section class="order-section">
+            <div class="section-title">
+                <span>FAÇA SEU PEDIDO</span>
+                <h1>Monte sua encomenda</h1>
+                <p>Escolha os produtos e informe os detalhes do seu pedido</p>
+            </div>
+            <div class="order-container">
+
+                <div class="products">
+
+                <h2>Escolha seuss produtos</h2>
+                <div class="product-list">
+                    <article class="order-product" data-name="Bolo-especial" data-price="80">
+                        <h3>Bolo Especial</h3>
+                        <p>Bolo artesanal</p>
+                        <strong>
+                            R$ 80,00
+                        </strong>
+                        <button class="add-product">Adicionar</button>
+
+                    </article>
+
+                    <article class="order-product" data-name="Brownie de chocolate" data-price="35">
+                        <h3>Brownie de chocolate</h3>
+                        <p>Brownie aetesanal</p>
+                        <strong> R$ 12,00</strong>
+
+                        <button class="add-product">
+                            Adicionar
+                        </button>
+                    </article>
+
+                    <article class="order-product" data-name="Brigadeiro gourmet" data-price="20">
+                        <h3>Brigadeiro Groumet</h3>
+                        <p>caixa com Brigadeiros</p>
+                        <strong>R$ 15,00</strong>
+                        <button class="add-product">
+                            Adicinar
+                        </button>
+
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="cart">
+                <h2>seu pedido</h2>
+                <div id="cart-items">
+                    <p>Nenhum produto adicionado</p>
+
+                </div>
+
+                <div class="cart-total">
+                    Total:
+                    <strong id="cart-total">R$ 0,00</strong>
+                </div>
+            </div>
+        </div>
+        
+        <!--clientes-->
+        <div class="customer-form">
+            <h2>Dados da encomenda</h2>
+            <label for="customer-name">Nome</label>
+            <input type="text" id="customer-name" placeholder="Seu nome">
+            <label for="customer-phone">Whatsapp</label>
+            <input type="tel" id="customer-phone" placeholder="(99)9999=9999">
+            <label for="order-date">
+                Data da encomenda
+            </label>
+            <input type="text" id="order-date">
+            <label for="order-notes">
+                Observações
+            </label>
+            <textarea id="order-notes" placeholder="Ex: blo de aniversario.."></textarea>
+            <button id="finish-order">Finalizar pedido</button>
+        </div>
+        </section>
+    </main>
+
+    <script src="js/pedidos.js"></script>
+</body>
+
+</html>
